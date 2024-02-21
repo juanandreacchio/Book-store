@@ -10,7 +10,7 @@ export const BookDetail = ({
   synopsis,
   isbn,
 }) => {
-  const { addBook, onReadingList } = useReading();
+  const { addBook, onReadingList, deleteBook } = useReading();
 
   const handleOnClick = () => {
     const bookToAdd = {
@@ -35,9 +35,14 @@ export const BookDetail = ({
           </h2>
           <h3 className="mb-2">By {author}</h3>
           <p className="w-full py-3 border-y-2">{synopsis}</p>
-          <button disabled={onReadingList(isbn)} onClick={handleOnClick} className="p-3 w-full bg-blue-400 text-white hover:bg-blue-600 mt-3 text-lg">
+          <div className="flex gap-4">
+          <button disabled={onReadingList(isbn)} onClick={handleOnClick} className={`${onReadingList(isbn) ? 'w-1/2' : 'w-full'} p-3  bg-blue-400 text-white hover:bg-blue-600 mt-3 text-lg`}>
             {onReadingList(isbn) ? 'This book is already in the reading list' : 'Add to reading list'}
           </button>
+          {onReadingList(isbn) && (
+            <button onClick={() => deleteBook(isbn)} className="p-3 w-1/2 bg-red-400 text-white hover:bg-red-600 mt-3 text-lg">Remove from reading list</button>
+          )}
+          </div>
         </div>
       </div>
     </div>

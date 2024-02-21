@@ -4,10 +4,12 @@ import { BookListContainer } from "./components/BookListContainer";
 import { ReadingProvider } from "./context/ReadingContext";
 import { BookDetailContainer } from "./components/BookDetailContainer";
 import { Navbar } from "./components/Navbar";
+import { ThemeProvider } from "./context/ThemeContext";
 
 function App() {
   return (
     <>
+    <ThemeProvider>
       <ReadingProvider>
         <BrowserRouter>
         <Navbar />
@@ -17,6 +19,7 @@ function App() {
           </Routes>
         </BrowserRouter>
       </ReadingProvider>
+      </ThemeProvider>
     </>
   );
 }

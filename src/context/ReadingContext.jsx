@@ -5,12 +5,6 @@ export const ReadingContext = createContext();
 
   const initalReadingList = JSON.parse(localStorage.getItem("reading__list")) || []; 
 
-  const prueba = () =>{
-    console.log(JSON.parse(localStorage.getItem("reading__list")));
-  }
-
-
-
 export const ReadingProvider = ({ children }) => {
   const [readingList, setReadingList] = useState(initalReadingList);
 
@@ -32,7 +26,6 @@ export const ReadingProvider = ({ children }) => {
   };
 
   useEffect(() =>{
-    prueba()
     localStorage.setItem("reading__list",JSON.stringify(readingList))
   }, [readingList])
 
