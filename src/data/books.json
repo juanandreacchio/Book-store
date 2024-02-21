@@ -6,7 +6,8 @@
     "cover": "https://res.cloudinary.com/dmiy7cyjx/image/upload/v1708473604/Books/myGreatPredecessors_hyktb2.png",
     "pages": "464",
     "synopsis": "The battle for the World Chess Championship has witnessed numerous titanic struggles which have engaged the interest not only of chess enthusiasts but also of the public at large. The chessboard is the ultimate mental battleground and the world champions themselves are supreme intellectual gladiators.",
-    "isbn": "978-1857443308"
+    "isbn": "978-1857443308",
+    "genre": "Biography"
   },
   {
     "name": "Bobby Fischer Teaches Chess",
@@ -15,7 +16,8 @@
     "cover": "https://res.cloudinary.com/dmiy7cyjx/image/upload/v1708473645/Books/bobbyTeaches_mdllw8.png",
     "pages": "352",
     "synopsis": "Learn how to play chess the Bobby Fischer way with the fastest, most efficient, most enjoyable method ever devised. Whether you’re just learning the game or looking for more complex strategies, these practice problems and exercises will help you master the art of the checkmate. ",
-    "isbn": "978-0553263152"
+    "isbn": "978-0553263152",
+    "genre": "Strategy"
   },
   {
     "name": "Zurich International Chess Tournament 1953",
@@ -24,7 +26,8 @@
     "cover": "https://res.cloudinary.com/dmiy7cyjx/image/upload/v1708473706/Books/zurich-tournament_bi5rqk.png",
     "pages": "278",
     "synopsis": "The book of a strong tournament is more than just a games collection. When its participants are the world's strongest players . . . the tournament as a whole represents a step forward in the development of chess creativity. We may take as examples of such tournaments the events at Hastings 1895, St. Petersburg 1914, New York 1924, Moscow 1935, and Groningen 1946. Beyond doubt, Zurich-Neuhausen 1953 deserves a place among them.",
-    "isbn": "978-0486231307"
+    "isbn": "978-0486231307",
+    "genre": "Tournament"
   },
   {
     "name": "My System",
@@ -33,7 +36,8 @@
     "cover": "https://res.cloudinary.com/dmiy7cyjx/image/upload/v1708473809/Books/my__system_web6d0.png",
     "pages": "292",
     "synopsis": "This is the all-time chess classic of Aron Nimzowitsch, now provided in algebraic notation and updated to modern understandable English. One of the three or four best selling chess books of all time. Contains 419 diagrams. Recommended by Grandmasters and masters for 75 years! Completely modernized in this 1991 edition.",
-    "isbn": "978-9197600513"
+    "isbn": "978-9197600513",
+    "genre": "Biography"
   },
   {
     "name": "The Life and Games of Mikhail Tal",
@@ -42,7 +46,8 @@
     "cover": "https://res.cloudinary.com/dmiy7cyjx/image/upload/v1708473861/Books/life__mikhail__tal_wm4q2k.png",
     "pages": "528",
     "synopsis": "Mikhail Tal, the 'magician from Riga,' was the greatest attacking World Champion of them all, and this enchanting autobiography chronicles his extraordinary career with charm and humor.",
-    "isbn": "978-1857442028"
+    "isbn": "978-1857442028",
+    "genre": "Biography"
   },
   {
     "name": "Pawn Structure Chess",
@@ -51,7 +56,8 @@
     "cover": "https://res.cloudinary.com/dmiy7cyjx/image/upload/v1708473914/Books/pawn__structure_xsddbm.png",
     "pages": "384",
     "synopsis": "Every chess player needs to know how to handle his pawns. Pawns form the 'playing fields' of chess games, a semi-permanent 'structure' that can determine whether a player wins or loses. This comprehensive guide to pawn structure teaches the reader where pieces are best placed, which pawns should be advanced further or exchanged, and why certain structures are good and others disastrous. This invaluable book is a major update of this chess-world classic, first published in 1975 and unavailable for several years. ",
-    "isbn": "978-0812936716"
+    "isbn": "978-0812936716",
+    "genre": "Structure"
   },
   {
     "name": "Logical Chess: Move By Move",
@@ -60,7 +66,8 @@
     "cover": "https://res.cloudinary.com/dmiy7cyjx/image/upload/v1708473985/Books/logical__chess_l12uhw.png",
     "pages": "256",
     "synopsis": "In this much loved classic, Irving Chernev explains 33 complete games in detail, telling the reader the reason for every single move. Playing through these games and explanations gives a real insight into the power of the pieces and how to post them most effectively.",
-    "isbn": "978-0713484649"
+    "isbn": "978-0713484649",
+    "genre": "Strategy"
   },
   {
     "name": "Endgame Manual",
@@ -69,6 +76,7 @@
     "cover": "https://res.cloudinary.com/dmiy7cyjx/image/upload/v1708474030/Books/endgame__manual_f9nxew.png",
     "pages": "408",
     "synopsis": "A great new book on the endgame that will make you play better! Dvoretskys Endgame Manual is sure to become a classic on one of the most difficult and subtle phases in chess. It covers all the most important positions required for endgame mastery, from elementary king-and-pawn endings to complex rook or queen endgames that have baffled even top grandmasters.",
-    "isbn": "978-1936490591"
+    "isbn": "978-1936490591",
+    "genre": "Endgame"
   }
 ]

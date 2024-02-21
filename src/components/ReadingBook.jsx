@@ -1,19 +1,17 @@
-import React from 'react'
-import { useReading } from '../context/ReadingContext'
+import React from "react";
+import { useReading } from "../context/ReadingContext";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTrash } from '@fortawesome/free-solid-svg-icons'
 
-export const ReadingBook = ({ cover, name, isbn}) => {
-
-  const { deleteBook } = useReading()
+export const ReadingBook = ({ cover, name, isbn }) => {
+  const { deleteBook } = useReading();
 
   return (
-    <div className='m-1 w-fit h-fit relative'>
-    <button onClick={(e) =>{
-      e.stopPropagation()
-      deleteBook(isbn)
-    }} className='absolute text-xl right-[5px] top-[-10px] rounded-full bg-red-600 text-white p-1'>X</button>
-    <picture className="">
-        <img src={cover} alt={`${name} photo`} className=''/>
-    </picture>
+    <div className="m-1 w-fit h-fit relative">
+        <button onClick={() => deleteBook(isbn)} className="absolute right-0 top-[-20px] text-white bg-red-600 p-2 rounded-[50%]"><FontAwesomeIcon icon={faTrash} /></button>
+      <picture>
+        <img src={cover} alt={`${name} photo`}/>
+      </picture>
     </div>
-  )
-}
+  );
+};

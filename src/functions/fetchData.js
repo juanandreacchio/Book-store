@@ -1,8 +1,9 @@
-export const fetchData = async () => {
+export const fetchData = async (genre = 'all') => {
   try {
     const response = await fetch("/src/data/books.json");
     const data = await response.json();
-    return data;
+    const booksRef = genre !== 'all' ? data.filter(book => book.genre === genre) : data
+    return booksRef
   } catch (error) {
     return console.error("Error fetching data:", error);
   }

@@ -1,6 +1,7 @@
-import { useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import { ReadingList } from "./ReadingList";
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHome } from '@fortawesome/free-solid-svg-icons'
 
 export const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -13,13 +14,8 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className="w-full h-[10vh] bg-blue-600 flex justify-between p-3">
-        <Link to="/">Home</Link>
-        <div>
-          <button onClick={handleReadingListToggle} className="z-20">
-            Abrir
-          </button>
-        </div>
+      <nav className="w-full h-[10vh] bg-blue-600 p-3 px-8 flex items-center">
+        <Link to="/"><FontAwesomeIcon icon={faHome} className="text-4xl text-white"/></Link>
       </nav>
     </>
   );
