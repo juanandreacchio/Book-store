@@ -9,7 +9,7 @@ export const ReadingList = ({ onClose }) => {
     <p className="text-xl font-bold text-center mb-5 mt-2 border-b pb-4">
         {booksInReadingList} {booksInReadingList === 1 ? 'book' : 'books'} in reading list
     </p>
-    <div className="grid grid-cols-3 w-full items-center">
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 w-full items-center">
     {readingList.map(book => <ReadingBook key={book.isbn} {...book}/>)}
     </div>
     {booksInReadingList > 0 && (

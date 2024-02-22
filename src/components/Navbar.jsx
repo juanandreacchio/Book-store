@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faH, faHome } from "@fortawesome/free-solid-svg-icons";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { useTheme } from "../context/ThemeContext";
 
 export const Navbar = () => {
@@ -19,7 +19,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <div className="navbar bg-primary text-primary-content px-4">
+      <div className="navbar bg-primary text-primary-content px-4 h-[10vh]">
         <div className="flex-1">
           <Link to="/" className="btn btn-ghost text-3xl">
             <FontAwesomeIcon icon={faHome} />
